@@ -89,7 +89,7 @@
      {
        "interval": "10m",
        "outbounds": [
-         "hys2+ECH+PQS"
+         "hy2+ECH+PQS"
        ],
        "tag": "auto",
        "tolerance": 50,
@@ -114,9 +114,9 @@
          "type": "salamander"
        },
        "password": "UPx3eZeucT",
-       "server": "109.120.157.124",
+       "server": "2a0b:4140:6c5f::2",
        "server_port": 34428,
-       "tag": "hys2+ECH+PQS",
+       "tag": "hy2+ECH+PQS",
        "tls": {
          "ech": {
            "config": [
