@@ -81,7 +81,7 @@
        "outbounds": [
          "auto",
          "direct",
-         "hy2+ECH+PQS"
+         "Hy2+SNI"
        ],
        "tag": "proxy",
        "type": "selector"
@@ -89,7 +89,7 @@
      {
        "interval": "10m",
        "outbounds": [
-         "hy2+ECH+PQS"
+         "Hy2+SNI"
        ],
        "tag": "auto",
        "tolerance": 50,
@@ -110,24 +110,17 @@
      },
      {
        "obfs": {
-         "password": "jdidheie83jw8wjw8wjw9ww992iw",
+         "password": "nai282nw8en28e2i28",
          "type": "salamander"
        },
-       "password": "UPx3eZeucT",
-       "server": "109.120.157.124",
-       "server_port": 34428,
-       "tag": "hy2+ECH+PQS",
+       "password": "eMdGRE4vCq",
+       "server": "2a0b:4140:6c5f::2",
+       "server_port": 443,
+       "tag": "Hy2+SNI",
        "tls": {
-         "ech": {
-           "config": [
-             "-----BEGIN ECH CONFIGS-----",
-             "ADn+DQA1AAAgACC+uvJ3gNq6ELqeCPoJylb1bWgw51PgblXTUmo/pL0hEAAIAAEA",
-             "AQABAAMAAicnAAA=",
-             "-----END ECH CONFIGS-----"
-           ]
-         },
          "enabled": true,
-         "insecure": true
+         "insecure": true,
+         "server_name": "www.google.com"
        },
        "type": "hysteria2"
      }
@@ -187,3 +180,4 @@
      ]
    }
  }
+1
