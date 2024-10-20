@@ -3,10 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>صفحه من</title>
+    <title>نمایش JSON</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        pre {
+            background-color: #f4f4f4;
+            border: 1px solid #ccc;
+            padding: 10px;
+            overflow-x: auto;
+            white-space: pre-wrap; /* برای اینکه کدها در چند خط نمایش داده شوند */
+            word-wrap: break-word;
+        }
+        code {
+            color: #d63384;
+        }
+    </style>
 </head>
 <body>
-    {
+
+    <h1>نمایش فایل کانفیگ JSON</h1>
+    
+    <pre><code>
+{
    "dns": {
      "final": "local-dns",
      "rules": [
@@ -187,6 +211,8 @@
        }
      ]
    }
- }
+}
+    </code></pre>
+
 </body>
 </html>
