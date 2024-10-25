@@ -116,7 +116,7 @@
        "password": "eMdGRE4vCq",
        "server": "2a0b:4140:6c5f::2",
        "server_port": 443,
-       "tag": "Hy2+SNI",
+       "tag": "Hy2+SNI|IPv6",
        "tls": {
          "enabled": true,
          "insecure": true,
@@ -297,9 +297,9 @@
          "type": "salamander"
        },
        "password": "eMdGRE4vCq",
-       "server": "2a0b:4140:6c5f::2",
+       "server": "109.120.157.124",
        "server_port": 443,
-       "tag": "Hy2+SNI",
+       "tag": "Hy2+SNI|IPv4",
        "tls": {
          "enabled": true,
          "insecure": true,
